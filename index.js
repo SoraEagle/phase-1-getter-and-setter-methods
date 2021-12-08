@@ -6,10 +6,7 @@ Define setter methods for diameter, circumference, area which will accept values
     calculate the radius based on the input value and set this.radius accordingly
 
 All instances should be able to set this.radius by setting a value to diameter, circumference, or area*/
-
 /*
-area = Math.PI * (Math.pow(radius, 2));
-
 //Formulas to convert diameter, circumference, and area (in order) to radius:
 radius = diameter / 2; 
 radius = circumference / 2 / Math.PI
