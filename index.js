@@ -20,10 +20,6 @@ class Circle{
         this.radius = radius;
     }
     //Methods
-    static pi(){ //Static method, called with Circle.pi.
-        return Math.PI;
-    }
-
     //Setter methods:
     set diameter(diameter){ //Set diameter's value.
         this.diameter = diameter;
@@ -37,12 +33,13 @@ class Circle{
         this.area = area;
     }
 
+    //Getter methods:
     get diameter(){
         return this.diameter = this.radius * 2;
     }
 
     get circumference(){
-        return this.circumference = Circle.pi * this.diameter;
+        return this.circumference = Math.PI * (this.radius * 2);
     }
 
     get area(){
